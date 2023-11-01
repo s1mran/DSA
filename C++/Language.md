@@ -38,3 +38,27 @@ switch(a) {
 ```
 * If we do not add break in any case, all the cases written after that case will get executed until it finds a break, when that case matches the condition.
 
+### Loops
+* For Loop: 
+```
+for (initialization for var; condition for var; change the var){
+// do anything;
+}
+```
+
+* While Loop:
+```
+Initialize var;
+while(condition for var){
+    change the var;
+}
+```
+* Do While loop:
+  
+//DO executes the do block at least once before checking the condition
+```
+Initialize var;
+do {
+    change the var;
+} while(condition for var)
+```
