@@ -62,3 +62,13 @@ do {
     change the var;
 } while(condition for var)
 ```
+### Functions (Pass by Reference and Value)
+* functions can be **void**, **return**, **non parameterized**, **parameterized**
+
+* we can pass by value or reference
+
+* takes the copy of passed var
+```int byValue (int b){ b = 1;}```
+
+* changes passed var
+```int byRef(int &b){b = 3;}```
