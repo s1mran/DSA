@@ -72,3 +72,23 @@ do {
 
 * changes passed var
 ```int byRef(int &b){b = 3;}```
+
+### Pointers 
+* Points to a var, stores it's memory address
+
+### Double pointer
+* Points to a pointer, stores pointers memory address
+
+![image](https://github.com/s1mran/DSA/assets/35377484/e25874ae-1d99-4e78-8350-1b8f8710c812)
+
+```
+int a = 1;
+int *ptr = &a; // address of a
+*ptr = 2; // value of a or a is *ptr, now a is changed to 2
+int **ptr2 = &ptr; // address of ptr
+*ptr2 is address of a
+**ptr2 is => *(*(ptr2)) => *(*(ptr address)) => *(a address) => a
+**ptr2 = 4 => a is 4 now
+
+```
+
